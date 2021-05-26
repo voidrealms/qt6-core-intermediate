@@ -99,14 +99,14 @@ Qt 6 Core Intermediate with C++ on Udemy
         ◦ Creating message categories
         ◦ QLoggingCategory
         ◦ Assignment
-    • Encoding (section 6)
+    • Encoding
         ◦ ASCII
         ◦ UTF-8
         ◦ UTF-16
         ◦ Base64
         ◦ Hex
         ◦ Assignment
-    • Compression (section 7)
+    • Compression
         ◦ What is compression
         ◦ Compression formats
         ◦ Data compression
@@ -114,14 +114,14 @@ Qt 6 Core Intermediate with C++ on Udemy
         ◦ 3rd party libs 
         ◦ Quiz
         ◦ Assignment
-    • Serialization (section 8)
+    • Serialization
         ◦ What is serialization
         ◦ Serializing and deserializing data
         ◦ Serializing a class
         ◦ Serializing to JSON
         ◦ Serializing to XML
         ◦ Assignment
-    • Algorithms and macros  (
+    • Algorithms and macros
         ◦ qDeleteAll
         ◦ Filling a container
         ◦ Sorting a container
