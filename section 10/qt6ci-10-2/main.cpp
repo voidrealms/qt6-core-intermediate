@@ -29,7 +29,7 @@ QString makeData()
 
     for(int i = 0; i < 10; i++)
     {
-        int number = QRandomGenerator::global()->bounded(65535);
+        int number = QRandomGenerator::global()->bounded(1024);
         data.append(QChar(number));
     }
 
