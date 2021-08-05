@@ -27,6 +27,7 @@ void writeJson(QString path)
 void readJson(QString path)
 {
     Test *t;
+  
     t = Converter::readJson(path);
 
     if(!t)
@@ -40,6 +41,8 @@ void readJson(QString path)
     {
         qInfo() << key << " : " << t->map().value(key);
     }
+  
+   t.deleteLater();
 }
 
 int main(int argc, char *argv[])
