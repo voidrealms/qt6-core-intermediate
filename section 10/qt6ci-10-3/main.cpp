@@ -25,7 +25,7 @@ QString makeData() {
 
     data.append("Unicode test\r\n");
     for(int i = 0; i < 10; i++) {
-        int number = QRandomGenerator::global()->bounded(1112063);
+        int number = QRandomGenerator::global()->bounded(1024);
 
         data.append(QChar(number));
     }
